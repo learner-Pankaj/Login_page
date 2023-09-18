@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    height:100vh;
+    background-image: url("/images/dental-page.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(3px);
+}
+
+.login-box{
+    height: 500px;
+    width: 500px;
+    border: 2px solid white;
+    background-color: lightsteelblue;
+    background: transparent;
+    border-radius: 30px;
+}
+
+h1{
+    margin-top: 80px;
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #a84628;
+    font-size: 3rem;
+}
+
+#unameId{
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 50px;
+    width: 400px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    text-align: center;
+    padding: 2px;
+    font-size: 1rem;
+}
+#unameId:hover{
+    border: 1px solid #a84628;
+}
+
+#upwd{
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 50px;
+    width: 400px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    text-align: center;
+    padding: 2px;
+    font-size: 1rem;
+}
+#upwd:hover{
+    border: 1px solid #a84628;
+}
+
+button{
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 50px;
+    width: 400px;
+    border: 2px solid yellowgreen;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 1rem;
+}
+button:hover{
+    background-color: rgba(24, 163, 59, 0.651);
+}
+
+a{
+    margin-left: 300px;
+}
+
+p{
+    margin-top: 30px;
+    margin-left: 150px;
+}
+p a{
+    margin-left: 10px;
+}
+
+.login-details{
+    display: block;
+    justify-content: first baseline;
+    align-items: center;
+}
